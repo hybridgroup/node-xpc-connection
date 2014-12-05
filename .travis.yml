@@ -31,6 +31,7 @@ before_install:
 install:
   # ensure source install works
   - npm install --build-from-source
+  - node test
   # test our module
   #- node gamepad
 
