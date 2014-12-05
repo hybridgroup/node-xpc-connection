@@ -1,7 +1,7 @@
 {
   'targets': [
     {
-      'target_name': "<(module_name)",
+      'target_name': "binding",
       'conditions': [
         ['OS=="mac"', {
           'sources': [
