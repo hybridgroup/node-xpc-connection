@@ -20,7 +20,7 @@
           }
         }]
       ]
-    }
+    },
     {
       "target_name": "action_after_build",
       "type": "none",

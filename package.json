@@ -22,16 +22,16 @@
   "engines": {
     "node": ">=0.8"
   },
-  "os": [ "darwin" ]
+  "os": [ "darwin" ],
   "dependencies"  : {
       "node-pre-gyp": "0.5.x"
     },
   "bundledDependencies":["node-pre-gyp"],
   "devDependencies": {
     "aws-sdk": "~2.0.0-rc.15"
-  }
+  },
   "scripts": {
-    "install": "node-pre-gyp install --fallback-to-build",
+    "install": "node-pre-gyp install --fallback-to-build"
   },
   "binary": {
     "module_name": "xpc-connection",
