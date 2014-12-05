@@ -3,8 +3,6 @@
   "version": "0.0.4",
   "description": "XPC Connection binding for node.js",
   "main": "index.js",
-  "scripts": {
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/sandeepmistry/node-xpc-connection.git"
@@ -29,9 +27,6 @@
   "bundledDependencies":["node-pre-gyp"],
   "devDependencies": {
     "aws-sdk": "~2.0.0-rc.15"
-  },
-  "scripts": {
-    "install": "node-pre-gyp install --fallback-to-build"
   },
   "binary": {
     "module_name": "binding",
